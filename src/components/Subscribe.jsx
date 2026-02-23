@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { GraduationCap, ArrowRight, User, Lock, CheckCircle2, Ungroup } from 'lucide-react';
 
 // Assure-toi que cette URL correspond à celle de tes Contexts
-const apiUrl = 'http://127.0.0.1:8000/api';
+const apiUrl = import.meta.env.VITE_API_URL;
 
 export default function Subscribe() {
   const navigate = useNavigate();

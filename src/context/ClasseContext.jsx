@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { triggerConfetti } from '../utilitaires/celebration';
 import { useUser } from './UserContext';
 
-const apiUrl = 'http://127.0.0.1:8000/api';
+const apiUrl = import.meta.env.VITE_API_URL;
 const ClasseContext = createContext();
 
 export const ClasseProvider = ({ children }) => {

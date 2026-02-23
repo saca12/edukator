@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 
-const apiUrl = 'http://127.0.0.1:8000/api'; 
+const apiUrl = import.meta.env.VITE_API_URL;
 const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
