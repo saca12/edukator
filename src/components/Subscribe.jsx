@@ -5,6 +5,7 @@ import { GraduationCap, ArrowRight, User, Lock, CheckCircle2, Ungroup } from 'lu
 
 // Assure-toi que cette URL correspond à celle de tes Contexts
 const apiUrl = import.meta.env.VITE_API_URL;
+console.log("API URL utilisée :", apiUrl);
 
 export default function Subscribe() {
   const navigate = useNavigate();
