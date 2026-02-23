@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "name": "Thomas Sankara",
+    "role": "STUDENT",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Thomas&backgroundColor=b6e3f4",
+    "email": "thomas.s@edukator.fr",
+    "level": "Lycée",
+    "class": "2nde C",
+    "stats": {
+      "gradeHistory": [12, 13.5, 14, 15.5, 16, 15, 16.5]
+    }
+  },
+  "notifications": [
+    { "id": 1, "message": "Ton devoir de Physique sur les Forces est à rendre demain !", "type": "info" },
+    { "id": 2, "message": "Bravo ! Tu as obtenu le badge 'Scientifique en herbe'.", "type": "success" },
+    { "id": 3, "message": "Nouvelle leçon de Maths disponible : Les Vecteurs.", "type": "info" }
+  ],
+  "badges": [
+    { "id": 1, "name": "Premiers Pas", "icon": "🚀", "desc": "A terminé son premier cours", "criteria": "courses" },
+    { "id": 2, "name": "Matheux", "icon": "📐", "desc": "A obtenu 18+ en Maths", "criteria": "grade" },
+    { "id": 3, "name": "Assidu", "icon": "🔥", "desc": "Connecté 7 jours d'affilée", "criteria": "login" },
+    { "id": 4, "name": "Expert Sciences", "icon": "🧪", "desc": "A terminé 5 cours de Sciences", "criteria": "courses" },
+    { "id": 5, "name": "Bilingue", "icon": "🇬🇧", "desc": "Moyenne > 16 en Anglais", "criteria": "grade" }
+  ],
+  "initialChatHistory": [
+    { "role": "assistant", "content": "Salut Thomas ! Prêt pour tes exercices de vecteurs aujourd'hui ?" }
+  ]
+
+}

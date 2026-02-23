@@ -1,0 +1,641 @@
+{
+  "courses": [
+    {
+      "id": 101,
+      "title": "Maths : Calcul Vectoriel",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "duration": "2h 00",
+      "level": "Lycée",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. Définition et Norme", "text": "Un vecteur est défini par une direction, un sens et une norme (longueur). On le note souvent avec une flèche au-dessus de la lettre. La norme du vecteur u est notée ||u||." },
+        { "subtitle": "II. Égalité de deux vecteurs", "text": "Deux vecteurs sont égaux s'ils ont la même direction, le même sens et la même norme. S'ils sont égaux, ils forment un parallélogramme ABCD (AB = DC)." },
+        { "subtitle": "III. Somme vectorielle", "text": "La somme de deux vecteurs u et v se construit géométriquement en mettant le vecteur v au bout du vecteur u (méthode du bout à bout)." },
+        { "subtitle": "IV. Relation de Chasles", "text": "Pour tous points A, B et C du plan, on a la relation fondamentale : AB + BC = AC. Cela permet de simplifier les expressions vectorielles complexes." },
+        { "subtitle": "V. Colinéarité", "text": "Deux vecteurs u et v sont dits colinéaires s'il existe un réel k tel que u = k*v. Géométriquement, cela signifie que les droites qui les portent sont parallèles." }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Maths : Fonctions de Référence",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 85,
+      "content": [
+        { "subtitle": "I. Notion de fonction", "text": "Une fonction f associe à chaque nombre réel x d'un ensemble de définition D une image unique notée f(x). La courbe représentative est l'ensemble des points (x, f(x))." },
+        { "subtitle": "II. Fonction Carré", "text": "Définie sur R par f(x) = x². Sa courbe est une parabole de sommet (0,0). Elle est paire (symétrique par rapport à l'axe des ordonnées), décroissante sur ]-∞;0] et croissante sur [0;+∞[." },
+        { "subtitle": "III. Fonction Inverse", "text": "Définie sur R* (tous les réels sauf 0) par f(x) = 1/x. Sa courbe est une hyperbole. Elle est impaire (symétrique par rapport à l'origine) et strictement décroissante sur ses intervalles." },
+        { "subtitle": "IV. Fonction Racine Carrée", "text": "Définie sur [0;+∞[ par f(x) = √x. Elle est strictement croissante. Attention, la racine d'un nombre négatif n'existe pas dans R." },
+        { "subtitle": "V. Fonction Cube", "text": "Définie sur R par f(x) = x³. C'est une fonction impaire, strictement croissante sur R. Elle traverse l'origine." }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Maths : Équations de Droites",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "duration": "1h 45",
+      "progress": 40,
+      "content": [
+        { "subtitle": "I. Équation cartésienne", "text": "Toute droite D du plan admet une équation de la forme ax + by + c = 0, avec (a,b) ≠ (0,0). Un vecteur directeur de D est u(-b; a)." },
+        { "subtitle": "II. Équation réduite", "text": "Si la droite n'est pas verticale (b ≠ 0), elle peut s'écrire sous la forme y = mx + p, où m est le coefficient directeur (pente) et p l'ordonnée à l'origine." },
+        { "subtitle": "III. Droites parallèles", "text": "Deux droites sont parallèles si et seulement si elles ont le même coefficient directeur (m = m') ou si leurs vecteurs directeurs sont colinéaires (xy' - x'y = 0)." },
+        { "subtitle": "IV. Droites sécantes", "text": "Si les coefficients directeurs sont différents, les droites sont sécantes en un point unique. On trouve ses coordonnées en résolvant le système formé par les deux équations." },
+        { "subtitle": "V. Cas particuliers", "text": "Une droite verticale a pour équation x = k. Une droite horizontale a pour équation y = k (coefficient directeur nul)." }
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Maths : Statistiques",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 10,
+      "content": [
+        { "subtitle": "I. Vocabulaire de base", "text": "Population : ensemble étudié. Individu : élément de la population. Caractère : propriété étudiée (qualitatif ou quantitatif). Effectif : nombre d'individus." },
+        { "subtitle": "II. La Moyenne", "text": "La moyenne (x̄) est la somme des valeurs pondérées par leurs effectifs, divisée par l'effectif total. C'est un indicateur de position sensible aux valeurs extrêmes." },
+        { "subtitle": "III. La Médiane", "text": "La médiane (Me) est la valeur qui partage la série statistique ordonnée en deux groupes de même effectif (50% inférieurs, 50% supérieurs)." },
+        { "subtitle": "IV. Les Quartiles", "text": "Le premier quartile Q1 est la plus petite valeur telle que 25% des données soient inférieures ou égales. Q3 correspond à 75%. L'écart interquartile (Q3-Q1) mesure la dispersion." },
+        { "subtitle": "V. Diagramme en boîte", "text": "Aussi appelé 'boîte à moustaches', ce graphique résume la série à l'aide de la médiane, des quartiles et des valeurs extrêmes (min et max)." }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Maths : Trigonométrie",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "duration": "2h 15",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Le Cercle Trigonométrique", "text": "C'est un cercle de rayon 1, orienté dans le sens direct (anti-horaire). À tout réel x, on associe un point M unique sur ce cercle par enroulement." },
+        { "subtitle": "II. Radian et Degré", "text": "Le radian est l'unité de mesure d'angle adaptée aux mathématiques. On a la correspondance : 180° = π radians. Un angle plat vaut π, un angle droit π/2." },
+        { "subtitle": "III. Cosinus et Sinus", "text": "Pour un point M associé au réel x sur le cercle, l'abscisse de M est cos(x) et son ordonnée est sin(x). Relation fondamentale : cos²(x) + sin²(x) = 1." },
+        { "subtitle": "IV. Valeurs remarquables", "text": "Il faut connaître par cœur les valeurs pour les angles 0, π/6, π/4, π/3 et π/2. Exemple : cos(π/3) = 1/2 et sin(π/3) = √3/2." },
+        { "subtitle": "V. Propriétés de symétrie", "text": "Les fonctions cos et sin sont 2π-périodiques. La fonction cosinus est paire (cos(-x) = cos(x)), la fonction sinus est impaire (sin(-x) = -sin(x))." }
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Maths : Probabilités",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Expérience aléatoire", "text": "Une expérience est aléatoire si on ne peut pas prévoir son résultat avec certitude, mais qu'on connaît l'ensemble des résultats possibles (l'univers Ω)." },
+        { "subtitle": "II. Événements", "text": "Un événement est un sous-ensemble de l'univers. L'événement contraire de A (noté Ā) est l'ensemble des issues qui ne réalisent pas A. P(A) + P(Ā) = 1." },
+        { "subtitle": "III. Calcul de probabilité", "text": "Dans une situation d'équiprobabilité (chaque issue a la même chance), P(A) = (Nombre d'issues favorables à A) / (Nombre total d'issues)." },
+        { "subtitle": "IV. Réunion et Intersection", "text": "L'intersection A∩B est l'événement 'A et B'. La réunion A∪B est l'événement 'A ou B'. Formule : P(A∪B) = P(A) + P(B) - P(A∩B)." },
+        { "subtitle": "V. Arbres de probabilité", "text": "On utilise des arbres pondérés pour modéliser des expériences successives. La probabilité d'un chemin est le produit des probabilités des branches." }
+      ]
+    },
+    {
+      "id": 201,
+      "title": "PC : Structure de la Matière",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "duration": "1h 15",
+      "level": "Lycée",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. Modèle de l'atome", "text": "L'atome est constitué d'un noyau central chargé positivement et d'électrons chargés négativement qui gravitent autour. L'atome est électriquement neutre." },
+        { "subtitle": "II. Composition du noyau", "text": "Le noyau contient des nucléons : les protons (charge +e) et les neutrons (charge nulle). Le nombre de protons est le numéro atomique Z." },
+        { "subtitle": "III. Les Isotopes", "text": "Des atomes sont isotopes s'ils ont le même nombre de protons (Z) mais un nombre de neutrons (N) différent. Ils appartiennent au même élément chimique." },
+        { "subtitle": "IV. Configuration électronique", "text": "Les électrons se répartissent en couches (K, L, M) et sous-couches (s, p). La couche externe (ou de valence) détermine les propriétés chimiques de l'atome." },
+        { "subtitle": "V. Tableau périodique", "text": "Les éléments sont classés par Z croissant. Les éléments d'une même colonne forment une famille chimique et ont le même nombre d'électrons de valence." }
+      ]
+    },
+    {
+      "id": 202,
+      "title": "PC : Mouvement et Forces",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "duration": "1h 45",
+      "progress": 90,
+      "content": [
+        { "subtitle": "I. Relativité du mouvement", "text": "Le mouvement d'un objet dépend du référentiel choisi (Terrestre pour le labo, Géocentrique pour la Lune, Héliocentrique pour les planètes)." },
+        { "subtitle": "II. Vecteur Vitesse", "text": "La vitesse est décrite par un vecteur tangent à la trajectoire. V = d/t. La variation du vecteur vitesse indique une accélération ou un changement de direction." },
+        { "subtitle": "III. Actions mécaniques", "text": "Une action mécanique (force) peut mettre en mouvement, modifier le mouvement ou déformer un corps. On la représente par un vecteur force (en Newton N)." },
+        { "subtitle": "IV. Le Poids", "text": "Le poids P est la force d'attraction gravitationnelle exercée par la Terre. P = m x g, avec m en kg et g l'intensité de pesanteur (≈ 9.8 N/kg)." },
+        { "subtitle": "V. Principe d'Inertie", "text": "1ère loi de Newton : Si les forces qui s'exercent sur un corps se compensent (ou s'il n'y en a pas), le corps est soit au repos, soit en mouvement rectiligne uniforme." }
+      ]
+    },
+    {
+      "id": 203,
+      "title": "PC : La Mole et Quantité",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 60,
+      "content": [
+        { "subtitle": "I. La Mole : unité de quantité", "text": "Pour compter les atomes par 'paquets', on utilise la mole. Une mole contient 6,02 x 10^23 entités (Nombre d'Avogadro NA)." },
+        { "subtitle": "II. Masse Molaire atomique", "text": "C'est la masse d'une mole d'atomes d'un élément (en g/mol). On la trouve dans le tableau périodique (ex: M(C) = 12 g/mol)." },
+        { "subtitle": "III. Masse Molaire moléculaire", "text": "C'est la somme des masses molaires atomiques des atomes composant la molécule. Ex: M(H2O) = 2*M(H) + M(O) = 18 g/mol." },
+        { "subtitle": "IV. Calcul de quantité de matière", "text": "La relation fondamentale est n = m / M, où n est en mol, m est la masse de l'échantillon en g, et M la masse molaire en g/mol." },
+        { "subtitle": "V. Volume molaire des gaz", "text": "Pour les gaz, on utilise le volume molaire Vm (L/mol). La relation est n = V / Vm. Vm dépend de la température et de la pression (22.4 L/mol à 0°C)." }
+      ]
+    },
+    {
+      "id": 204,
+      "title": "PC : Les Solutions Aqueuses",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 20,
+      "content": [
+        { "subtitle": "I. Définitions", "text": "Une solution est obtenue par dissolution d'un soluté (solide, liquide, gaz) dans un solvant. Si le solvant est l'eau, la solution est aqueuse." },
+        { "subtitle": "II. Concentration massique", "text": "La concentration en masse (Cm ou t) est la masse de soluté dissous par litre de solution : Cm = m_soluté / V_solution (en g/L)." },
+        { "subtitle": "III. Concentration molaire", "text": "La concentration molaire (C) est la quantité de matière de soluté par litre de solution : C = n_soluté / V_solution (en mol/L)." },
+        { "subtitle": "IV. Préparation par dissolution", "text": "On pèse une masse m = C * V * M de solide, on l'introduit dans une fiole jaugée, on dissout avec un peu d'eau, puis on complète jusqu'au trait de jauge." },
+        { "subtitle": "V. Dilution", "text": "Diluer, c'est ajouter du solvant pour diminuer la concentration. La quantité de matière se conserve : n_mère = n_fille, donc C_mère * V_mère = C_fille * V_fille." }
+      ]
+    },
+    {
+      "id": 205,
+      "title": "PC : Signaux Lumineux",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "duration": "1h 15",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Propagation de la lumière", "text": "La lumière se propage en ligne droite dans un milieu transparent homogène. Sa vitesse dans le vide est c = 3,00 x 10^8 m/s." },
+        { "subtitle": "II. Lumière blanche", "text": "La lumière blanche (Soleil) est composée d'une infinité de radiations colorées. On peut la décomposer avec un prisme pour obtenir son spectre." },
+        { "subtitle": "III. Spectres d'émission", "text": "Un corps chaud émet un spectre continu (d'origine thermique). Un gaz excité émet un spectre de raies (discontinu) caractéristique de l'élément." },
+        { "subtitle": "IV. Loi de Wien", "text": "Le spectre d'un corps chaud dépend de sa température. Plus la température augmente, plus le spectre s'enrichit vers le violet/UV." },
+        { "subtitle": "V. Réfraction et Réflexion", "text": "Lorsqu'un rayon change de milieu, il est dévié : c'est la réfraction (Loi de Snell-Descartes n1*sin(i1) = n2*sin(i2)). Une partie est renvoyée : c'est la réflexion." }
+      ]
+    },
+    {
+      "id": 206,
+      "title": "PC : L'Électricité",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "duration": "2h 00",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Le Circuit électrique", "text": "Un circuit comprend au moins un générateur. Le courant circule conventionnellement de la borne + vers la borne - à l'extérieur du générateur." },
+        { "subtitle": "II. Loi des nœuds", "text": "La somme des intensités des courants qui arrivent à un nœud est égale à la somme des intensités qui en repartent. C'est la conservation de la charge." },
+        { "subtitle": "III. Loi des mailles", "text": "Dans une maille orientée, la somme algébrique des tensions est nulle. Cela permet de calculer une tension inconnue connaissant les autres." },
+        { "subtitle": "IV. Loi d'Ohm", "text": "Pour un conducteur ohmique (résistance R), la tension U à ses bornes est proportionnelle à l'intensité I qui le traverse : U = R * I." },
+        { "subtitle": "V. Caractéristique d'un dipôle", "text": "C'est la courbe U = f(I). Pour une résistance, c'est une droite passant par l'origine. Pour une pile, c'est une droite décroissante." }
+      ]
+    },
+    {
+      "id": 301,
+      "title": "SVT : La Cellule",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "level": "Lycée",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. La théorie cellulaire", "text": "Tous les organismes vivants sont constitués d'une ou plusieurs cellules. La cellule est l'unité de base du vivant." },
+        { "subtitle": "II. Organisation cellulaire", "text": "Une cellule est délimitée par une membrane plasmique qui sépare le cytoplasme du milieu extérieur. Le cytoplasme contient le matériel génétique." },
+        { "subtitle": "III. Cellules Eucaryotes", "text": "Elles possèdent un noyau contenant l'ADN et des organites spécialisés (mitochondries, chloroplastes...). Ex: Animaux, Végétaux, Champignons." },
+        { "subtitle": "IV. Cellules Procaryotes", "text": "Ce sont des organismes unicellulaires sans noyau (l'ADN est libre dans le cytoplasme) et sans organites, comme les bactéries." },
+        { "subtitle": "V. Matrice extracellulaire", "text": "Chez les pluricellulaires, les cellules sont liées entre elles par une matrice extracellulaire (paroi chez les plantes) qui assure la cohésion des tissus." }
+      ]
+    },
+    {
+      "id": 302,
+      "title": "SVT : L'ADN",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 75,
+      "content": [
+        { "subtitle": "I. Localisation de l'info génétique", "text": "Dans les cellules eucaryotes, l'information génétique est contenue dans le noyau, portée par les chromosomes constitués d'ADN." },
+        { "subtitle": "II. Structure de l'ADN", "text": "L'ADN est une molécule en double hélice. Elle est formée de deux chaînes de nucléotides complémentaires reliées entre elles." },
+        { "subtitle": "III. Les Nucléotides", "text": "Il existe 4 types de nucléotides : Adénine (A), Thymine (T), Cytosine (C), Guanine (G). La règle de complémentarité est A avec T, et C avec G." },
+        { "subtitle": "IV. Le code génétique", "text": "L'information génétique réside dans l'ordre (la séquence) des nucléotides. Une portion d'ADN codant pour une information précise est un gène." },
+        { "subtitle": "V. Universalité de l'ADN", "text": "La structure de l'ADN est universelle chez tous les êtres vivants, ce qui suggère une origine commune à toute la vie sur Terre." }
+      ]
+    },
+    {
+      "id": 303,
+      "title": "SVT : Métabolisme",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "duration": "1h 15",
+      "progress": 30,
+      "content": [
+        { "subtitle": "I. Définition du métabolisme", "text": "Ensemble des réactions chimiques qui se déroulent à l'intérieur d'une cellule pour lui permettre de se maintenir en vie, grandir et se reproduire." },
+        { "subtitle": "II. Métabolisme hétérotrophe", "text": "Les cellules hétérotrophes (ex: cellules animales) doivent prélever de la matière organique dans leur milieu pour produire leur énergie." },
+        { "subtitle": "III. Métabolisme autotrophe", "text": "Les cellules autotrophes (ex: cellules végétales chlorophylliennes) produisent leur propre matière organique à partir de matière minérale et de lumière." },
+        { "subtitle": "IV. La Respiration cellulaire", "text": "Voie métabolique aérobie (avec O2) : Glucose + O2 -> CO2 + H2O + Énergie. Elle a lieu dans les mitochondries." },
+        { "subtitle": "V. La Fermentation", "text": "Voie métabolique anaérobie (sans O2). Dégradation incomplète du glucose produisant moins d'énergie et un déchet organique (éthanol, acide lactique)." }
+      ]
+    },
+    {
+      "id": 304,
+      "title": "SVT : Biodiversité",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. Les échelles de la biodiversité", "text": "La biodiversité s'observe à trois niveaux : la diversité des écosystèmes, la diversité des espèces, et la diversité génétique (au sein d'une espèce)." },
+        { "subtitle": "II. Évolution de la biodiversité", "text": "La biodiversité n'est pas figée. Elle change au cours du temps géologique. Des espèces apparaissent, d'autres disparaissent." },
+        { "subtitle": "III. Crises biologiques", "text": "L'histoire de la Terre est marquée par 5 grandes crises d'extinction massive (ex: fin du Crétacé avec les dinosaures), suivies de diversifications." },
+        { "subtitle": "IV. Moteurs de l'évolution", "text": "La dérive génétique (hasard) et la sélection naturelle (adaptation à l'environnement) font évoluer les populations et favorisent la spéciation." },
+        { "subtitle": "V. Impact humain", "text": "L'activité humaine (pollution, destruction des habitats, climat) accélère l'érosion de la biodiversité, provoquant potentiellement une 6ème crise majeure." }
+      ]
+    },
+    {
+      "id": 305,
+      "title": "SVT : Géologie Externe",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "duration": "2h 00",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Formation des paysages", "text": "Les paysages résultent de l'interaction entre la nature des roches, le climat, la végétation et les activités humaines." },
+        { "subtitle": "II. L'érosion", "text": "L'eau est le principal agent d'érosion. Elle altère les roches chimiquement (dissolution) et mécaniquement (gel, courant), créant des sédiments." },
+        { "subtitle": "III. Le transport", "text": "Les produits de l'érosion (particules solides, ions dissous) sont transportés par les cours d'eau, le vent ou les glaciers vers des zones de dépôt." },
+        { "subtitle": "IV. La sédimentation", "text": "Lorsque la vitesse de transport diminue, les particules se déposent pour former des sédiments. Ils s'accumulent en strates dans les bassins sédimentaires." },
+        { "subtitle": "V. Gestion des risques", "text": "L'homme doit gérer les risques liés à la dynamique géologique (inondations, éboulements, érosion du littoral) par l'aménagement et la prévention." }
+      ]
+    },
+    {
+      "id": 306,
+      "title": "SVT : L'Effort Physique",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Réponse de l'organisme", "text": "Lors d'un effort, les muscles ont des besoins accrus en énergie. Le corps réagit en augmentant la fréquence cardiaque et le débit ventilatoire." },
+        { "subtitle": "II. Apport en nutriments", "text": "L'énergie provient de la respiration cellulaire, qui consomme du glucose (nutriment) et du dioxygène (O2) apportés par le sang." },
+        { "subtitle": "III. Le VO2 max", "text": "La consommation d'O2 augmente avec l'intensité de l'effort jusqu'à atteindre un plafond appelé VO2 max, qui limite la puissance aérobie." },
+        { "subtitle": "IV. Régulation nerveuse", "text": "Le système nerveux détecte les besoins (via des capteurs chimiques et de pression) et commande l'accélération du cœur et de la respiration." },
+        { "subtitle": "V. Bénéfices de l'entraînement", "text": "L'entraînement régulier améliore les performances (meilleur VO2 max, cœur plus puissant) et prévient les maladies cardiovasculaires et l'obésité." }
+      ]
+    },
+    {
+      "id": 401,
+      "title": "Français : Le Roman",
+      "subject": "Français",
+      "classId": "2nde C",
+      "duration": "2h 00",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. Naissance et évolution", "text": "Né au Moyen Âge, le roman a évolué de la quête chevaleresque au roman réaliste du XIXe, puis au Nouveau Roman. C'est le genre dominant aujourd'hui." },
+        { "subtitle": "II. Le Personnage de roman", "text": "Le personnage est une construction littéraire. On étudie son identité, son portrait physique et moral, son évolution et son rôle (héros, opposant...)." },
+        { "subtitle": "III. Réalisme et Naturalisme", "text": "Au XIXe siècle (Balzac, Zola, Maupassant), les romanciers veulent faire du roman un miroir de la société, décrivant fidèlement tous les milieux sociaux." },
+        { "subtitle": "IV. Les points de vue", "text": "Le choix de la focalisation (interne, externe ou zéro/omniscient) détermine ce que le lecteur sait et perçoit de l'action et des pensées des personnages." },
+        { "subtitle": "V. L'Incipit", "text": "Le début du roman (incipit) est crucial : il plonge le lecteur dans l'histoire, présente les personnages, le cadre spatio-temporel et lance l'intrigue." }
+      ]
+    },
+    {
+      "id": 402,
+      "title": "Français : La Poésie",
+      "subject": "Français",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 50,
+      "content": [
+        { "subtitle": "I. La versification", "text": "L'étude du vers français : compter les syllabes (e muet), types de vers (alexandrin, décasyllabe), types de strophes et disposition des rimes." },
+        { "subtitle": "II. Le Lyrisme", "text": "Le registre lyrique exprime les sentiments personnels du poète (amour, deuil, nature, fuite du temps) avec musicalité, cherchant à émouvoir le lecteur." },
+        { "subtitle": "III. Les images poétiques", "text": "Le poète utilise des figures de style (comparaison, métaphore, personnification) pour créer des images originales et renouveler le regard sur le monde." },
+        { "subtitle": "IV. L'Engagement", "text": "La poésie peut être une arme. Le poète engagé (comme Hugo ou les Résistants) met sa plume au service d'une cause politique ou sociale." },
+        { "subtitle": "V. Vers la modernité", "text": "Au XIXe et XXe siècles (Baudelaire, Rimbaud, Apollinaire), la poésie se libère des règles classiques : vers libre, poème en prose, suppression de la ponctuation." }
+      ]
+    },
+    {
+      "id": 403,
+      "title": "Français : Le Théâtre",
+      "subject": "Français",
+      "classId": "2nde C",
+      "duration": "1h 45",
+      "progress": 20,
+      "content": [
+        { "subtitle": "I. Spécificité du texte", "text": "Le théâtre est fait pour être joué. Le texte comprend les dialogues (répliques, tirades, stichomythies) et les didascalies (indications de jeu, décor)." },
+        { "subtitle": "II. La double énonciation", "text": "Au théâtre, les personnages se parlent entre eux, mais l'auteur s'adresse aussi indirectement au public. Cela crée parfois une ironie dramatique." },
+        { "subtitle": "III. Tragédie et Comédie", "text": "La tragédie met en scène des nobles face à un destin fatal (terreur et pitié). La comédie peint des bourgeois avec humour pour corriger les mœurs (rire)." },
+        { "subtitle": "IV. Le théâtre classique", "text": "Au XVIIe siècle, le théâtre obéit à des règles strictes : règle des trois unités (temps, lieu, action), vraisemblance et bienséance." },
+        { "subtitle": "V. Le Drame romantique", "text": "Au XIXe, Hugo brise les règles classiques. Il mélange le sublime et le grotesque, les genres, et revendique une liberté totale dans l'art." }
+      ]
+    },
+    {
+      "id": 404,
+      "title": "Français : Argumentation",
+      "subject": "Français",
+      "classId": "2nde C",
+      "duration": "1h 15",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Convaincre et Persuader", "text": "Argumenter, c'est vouloir faire adhérer autrui à sa thèse. Convaincre fait appel à la raison (logique). Persuader fait appel aux sentiments." },
+        { "subtitle": "II. L'argumentation directe", "text": "L'auteur exprime son opinion explicitement, sans passer par la fiction. Genres : l'Essai, le Discours, la Lettre ouverte, le Manifeste." },
+        { "subtitle": "III. L'argumentation indirecte", "text": "L'auteur utilise la fiction pour faire passer son message de manière plaisante (Plaire pour Instruire). Genres : Fable, Conte philosophique, Utopie." },
+        { "subtitle": "IV. Les Lumières", "text": "Au XVIIIe siècle, les philosophes (Voltaire, Rousseau, Diderot) utilisent la littérature pour combattre l'intolérance, l'injustice et l'ignorance." },
+        { "subtitle": "V. Stratégies argumentatives", "text": "L'ironie, l'éloge, le blâme, le raisonnement par l'absurde ou par concession sont des outils pour renforcer l'impact d'une argumentation." }
+      ]
+    },
+    {
+      "id": 405,
+      "title": "Français : Réalisme",
+      "subject": "Français",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Le Mouvement Réaliste", "text": "Apparu vers 1850 en réaction au Romantisme. Il vise à représenter le monde tel qu'il est, sans idéalisation, avec objectivité." },
+        { "subtitle": "II. Thèmes de prédilection", "text": "L'argent, l'ascension sociale, la médiocrité de la vie provinciale, les mœurs bourgeoises, la ville moderne et ses transformations." },
+        { "subtitle": "III. L'illusion du vrai", "text": "Les auteurs accumulent les détails vrais, utilisent un vocabulaire technique précis et ancrent leurs récits dans un cadre historique et géographique réel." },
+        { "subtitle": "IV. Le héros réaliste", "text": "Souvent un personnage ordinaire, voire médiocre, ou un jeune ambitieux cherchant sa place dans une société impitoyable (apprentissage)." },
+        { "subtitle": "V. Maupassant et le Naturalisme", "text": "Le Naturalisme (Zola) pousse le réalisme plus loin en appliquant une méthode scientifique. Maupassant, lui, cherche à donner 'l'illusion complète du vrai'." }
+      ]
+    },
+    {
+      "id": 406,
+      "title": "Français : Figures de Style",
+      "subject": "Français",
+      "classId": "2nde C",
+      "duration": "45 min",
+      "progress": 90,
+      "content": [
+        { "subtitle": "I. Figures d'analogie", "text": "Elles créent des images. Comparaison (avec 'comme'), Métaphore (fusion des termes), Personnification (attributs humains à une chose)." },
+        { "subtitle": "II. Figures de substitution", "text": "Elles remplacent un terme par un autre. Métonymie (boire un verre), Périphrase (la Ville Lumière), Antiphrase (ironie)." },
+        { "subtitle": "III. Figures d'insistance", "text": "Elles renforcent une idée. Anaphore (répétition en début de phrase), Hyperbole (exagération), Gradation (suite de termes d'intensité croissante)." },
+        { "subtitle": "IV. Figures d'opposition", "text": "Elles rapprochent des contraires. Antithèse (mots opposés dans la même phrase), Oxymore (deux mots opposés collés : 'obscure clarté')." },
+        { "subtitle": "V. Analyse stylistique", "text": "Repérer une figure ne suffit pas. Il faut analyser l'effet qu'elle produit sur le lecteur : mettre en valeur, surprendre, émouvoir, faire rire." }
+      ]
+    },
+    {
+      "id": 501,
+      "title": "Anglais : Past Tenses",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. The Simple Past", "text": "Used for finished actions in the past with a specific time reference (yesterday, in 1999). Regular verbs end in -ed. Irregular verbs must be memorized." },
+        { "subtitle": "II. The Past Continuous", "text": "Used for actions that were in progress at a specific time in the past. Structure: Was/Were + V-ing. Often sets the scene in a story." },
+        { "subtitle": "III. Simple Past vs Past Continuous", "text": "Use Past Continuous for a long action interrupted by a short action in Simple Past. 'I was watching TV when the phone rang'." },
+        { "subtitle": "IV. The Present Perfect", "text": "Connects past and present. Action finished but with a result now, or life experience. Keywords: just, already, yet, ever, never. Structure: Have/Has + V-ed/3rd col." },
+        { "subtitle": "V. For and Since", "text": "Used with Present Perfect to express duration. 'For' indicates a period of time (for 2 years). 'Since' indicates a starting point (since 2010)." }
+      ]
+    },
+    {
+      "id": 502,
+      "title": "Anglais : Environment",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "duration": "1h 15",
+      "progress": 60,
+      "content": [
+        { "subtitle": "I. Climate Change", "text": "Global warming is caused by the greenhouse effect due to carbon emissions. Consequences: melting ice caps, rising sea levels, extreme weather." },
+        { "subtitle": "II. Pollution", "text": "Air, water, and soil pollution harm ecosystems and human health. Plastic pollution in oceans is a major crisis affecting marine life." },
+        { "subtitle": "III. Renewable Energy", "text": "Transitioning from fossil fuels (oil, coal) to green energy (solar, wind, hydro, geothermal) is essential to reduce carbon footprint." },
+        { "subtitle": "IV. The 3 Rs", "text": "Reduce (consume less), Reuse (use items again), Recycle (process waste into new products). This is the basis of a sustainable lifestyle." },
+        { "subtitle": "V. Activism", "text": "Young people play a key role (e.g., Greta Thunberg). Individual actions (eating less meat, flying less) matter as much as government policies." }
+      ]
+    },
+    {
+      "id": 503,
+      "title": "Anglais : Technology",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 40,
+      "content": [
+        { "subtitle": "I. The Digital Age", "text": "The internet and smartphones have revolutionized how we communicate, work, and learn. Information is instantly accessible anywhere." },
+        { "subtitle": "II. Social Media", "text": "Platforms like Instagram or TikTok connect people but also bring risks: cyberbullying, addiction, fake news, and unrealistic beauty standards." },
+        { "subtitle": "III. Artificial Intelligence", "text": "AI and robotics are changing industries (healthcare, transport). They offer efficiency but raise ethical questions about privacy and job loss." },
+        { "subtitle": "IV. Screen Time", "text": "Excessive screen time affects mental health and sleep. Digital detox involves taking breaks from devices to reconnect with the real world." },
+        { "subtitle": "V. Future Tech", "text": "Innovations like Virtual Reality (VR), self-driving cars, and space tourism (SpaceX) are shaping the future of humanity." }
+      ]
+    },
+    {
+      "id": 504,
+      "title": "Anglais : Modal Verbs",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "duration": "45 min",
+      "progress": 80,
+      "content": [
+        { "subtitle": "I. Ability and Permission", "text": "'Can' expresses ability (I can swim) or permission. 'Could' is the past form or a polite request. 'Be able to' is used for specific achievements." },
+        { "subtitle": "II. Obligation", "text": "'Must' comes from the speaker (internal obligation). 'Have to' comes from a rule or law (external). 'Had to' is the past of both." },
+        { "subtitle": "III. Prohibition vs Lack of Necessity", "text": "'Mustn't' means forbidden (You mustn't smoke). 'Don't have to' means not necessary (You don't have to pay, it's free)." },
+        { "subtitle": "IV. Advice", "text": "'Should' and 'Ought to' are used to give advice or opinions. 'You should study more'. 'Had better' implies a warning/consequence." },
+        { "subtitle": "V. Probability/Deduction", "text": "Must (99% sure true), Can't (99% sure impossible), May/Might/Could (50% possible). Used to speculate about situations." }
+      ]
+    },
+    {
+      "id": 505,
+      "title": "Anglais : Essay Writing",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 10,
+      "content": [
+        { "subtitle": "I. Essay Structure", "text": "An essay typically has an Introduction (hook + thesis), Body Paragraphs (arguments + examples), and a Conclusion (summary + final thought)." },
+        { "subtitle": "II. Linking Words", "text": "Use connectors to organize ideas: Addition (Moreover, Furthermore), Contrast (However, On the other hand), Cause/Effect (Therefore, As a result)." },
+        { "subtitle": "III. Introduction", "text": "Start with a general statement or question to grab attention. Then clearly state your opinion or the plan of your essay." },
+        { "subtitle": "IV. Developing Arguments", "text": "Each paragraph should focus on one main idea (Topic Sentence). Support it with explanations and concrete examples." },
+        { "subtitle": "V. Formal Style", "text": "Avoid slang and contractions (don't -> do not). Use varied vocabulary. Re-read to check for grammar and spelling mistakes." }
+      ]
+    },
+    {
+      "id": 506,
+      "title": "Anglais : Passive Voice",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Formation", "text": "Passive = Be (conjugated in the tense of the active verb) + Past Participle. The object of the active sentence becomes the subject." },
+        { "subtitle": "II. When to use it", "text": "Use passive when the action is more important than the person doing it, or when the agent is unknown or obvious. 'The bank was robbed'." },
+        { "subtitle": "III. The Agent (By)", "text": "If you want to mention who did the action, use 'by'. 'Hamlet was written by Shakespeare'. Omit if unimportant ('by people')." },
+        { "subtitle": "IV. Tenses in Passive", "text": "Present: is done. Past: was done. Future: will be done. Present Perfect: has been done. Modal: can be done." },
+        { "subtitle": "V. Double Object Verbs", "text": "Verbs like 'give' can have two passive forms. 'John was given a book' (more common) OR 'A book was given to John'." }
+      ]
+    },
+    {
+      "id": 601,
+      "title": "HG : La Démocratie",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. L'invention de la démocratie", "text": "Athènes au Ve siècle av. J.-C. invente la démocratie (demos = peuple, kratos = pouvoir). Les citoyens débattent et votent les lois." },
+        { "subtitle": "II. La citoyenneté athénienne", "text": "C'est un club fermé : hommes libres, nés de père citoyen et mère fille de citoyen, ayant fait l'éphébie. Femmes, métèques et esclaves sont exclus." },
+        { "subtitle": "III. Les institutions", "text": "L'Ecclésia (assemblée des citoyens) vote les lois. La Boulè prépare les lois. L'Héliée rend la justice. Les magistrats sont tirés au sort ou élus." },
+        { "subtitle": "IV. Périclès", "text": "Stratège influent, il renforce la démocratie en créant le misthos (indemnité) permettant aux pauvres de participer. Il lance de grands travaux (Parthénon)." },
+        { "subtitle": "V. Limites et critiques", "text": "C'est une démocratie directe mais minoritaire. Elle est critiquée par les philosophes (Platon) qui craignent la démagogie et la tyrannie de la foule." }
+      ]
+    },
+    {
+      "id": 602,
+      "title": "HG : L'Antiquité",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 70,
+      "content": [
+        { "subtitle": "I. L'Empire Romain", "text": "À son apogée (IIe siècle), l'Empire entoure la Méditerranée. La paix romaine (Pax Romana) favorise le commerce et la prospérité." },
+        { "subtitle": "II. La Romanisation", "text": "Rome diffuse son mode de vie (urbanisme, thermes, jeux), sa langue (latin) et son droit. Les élites locales adoptent la culture romaine." },
+        { "subtitle": "III. L'édit de Caracalla", "text": "En 212 ap. J.-C., l'empereur Caracalla accorde la citoyenneté romaine à tous les hommes libres de l'Empire, achevant l'intégration." },
+        { "subtitle": "IV. La Christianisation", "text": "D'abord persécuté, le christianisme devient autorisé (Édit de Milan 313) puis religion d'État (Théodose 380), transformant la culture antique." },
+        { "subtitle": "V. Constantin", "text": "Premier empereur chrétien, il fonde une nouvelle capitale, Constantinople, marquant le basculement de l'Empire vers l'Orient." }
+      ]
+    },
+    {
+      "id": 603,
+      "title": "HG : Cartographie",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 100,
+      "content": [
+        { "subtitle": "I. La carte, une représentation", "text": "Une carte est une projection plane de la Terre sphérique. Toute projection (Mercator, Peters) entraîne des déformations (angles ou surfaces)." },
+        { "subtitle": "II. L'échelle", "text": "C'est le rapport entre la distance sur la carte et la distance réelle. Une 'grande échelle' montre une petite zone avec détails (zoom). Une 'petite échelle' montre le monde." },
+        { "subtitle": "III. Le langage cartographique", "text": "On utilise des figurés pour représenter l'information : ponctuels (villes), linéaires (routes, flux, frontières) et de surface (zones, densités)." },
+        { "subtitle": "IV. La carte, outil politique", "text": "Le choix du centrage (Europe, Pacifique) et de la projection reflète une vision du monde. La carte sert à affirmer un pouvoir ou une identité." },
+        { "subtitle": "V. Les nouvelles cartographies", "text": "Les SIG (Systèmes d'Information Géographique) et les cartes par anamorphose (taille proportionnelle à une donnée, ex: PIB) renouvellent la discipline." }
+      ]
+    },
+    {
+      "id": 604,
+      "title": "HG : Population Mondiale",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "duration": "1h 15",
+      "progress": 30,
+      "content": [
+        { "subtitle": "I. Une croissance forte", "text": "La population mondiale a explosé depuis le XIXe siècle (de 1 à 8 milliards). La croissance ralentit aujourd'hui mais l'inertie reste forte." },
+        { "subtitle": "II. La transition démographique", "text": "Modèle expliquant le passage d'une mortalité/natalité élevées à faibles. La phase de transition génère une forte croissance naturelle." },
+        { "subtitle": "III. Foyers de peuplement", "text": "La population est inégalement répartie. Trois grands foyers (Asie de l'Est, Asie du Sud, Europe) concentrent la majorité des humains." },
+        { "subtitle": "IV. Vieillissement", "text": "Les pays développés et la Chine font face au vieillissement de leur population, posant des défis pour les retraites et la santé." },
+        { "subtitle": "V. Développement et inégalités", "text": "La croissance démographique peut être un frein au développement (besoins immenses) ou un atout (dividende démographique) selon les pays." }
+      ]
+    },
+    {
+      "id": 605,
+      "title": "HG : Ressources",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "duration": "1h 30",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Ressources limitées", "text": "Les ressources naturelles (eau, énergie, minerais) sont inégalement réparties et non infinies. Leur exploitation intensive menace les stocks." },
+        { "subtitle": "II. L'eau, or bleu", "text": "L'eau douce est rare. L'agriculture en consomme 70%. Les conflits d'usage et le stress hydrique augmentent avec la population et le climat." },
+        { "subtitle": "III. Énergie : le défi", "text": "Le monde dépend encore à 80% des énergies fossiles (pétrole, charbon, gaz), responsables du réchauffement. La transition énergétique est urgente." },
+        { "subtitle": "IV. Alimentation", "text": "Nourrir 10 milliards d'humains en 2050 est un défi. Il faut produire mieux (durablement), réduire le gaspillage et mieux répartir la nourriture." },
+        { "subtitle": "V. Développement durable", "text": "Gérer les ressources pour répondre aux besoins présents sans compromettre les générations futures. Concilier économie, social et environnement." }
+      ]
+    },
+    {
+      "id": 606,
+      "title": "HG : Risques majeurs",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "duration": "1h 00",
+      "progress": 0,
+      "content": [
+        { "subtitle": "I. Définition du risque", "text": "Le risque est la combinaison d'un aléa (phénomène naturel ou technologique) et d'un enjeu (population, biens exposés). Pas d'enjeu = pas de risque." },
+        { "subtitle": "II. Types de risques", "text": "Risques naturels (séismes, volcans, cyclones, inondations) et risques technologiques (industriels, nucléaires, transport de matières dangereuses)." },
+        { "subtitle": "III. Inégalités face aux risques", "text": "Les pays pauvres sont plus vulnérables (manque d'infrastructures, de secours). Les pays riches ont plus de pertes matérielles mais moins de victimes." },
+        { "subtitle": "IV. La gestion des risques", "text": "Elle repose sur la prévision (surveiller l'aléa), la prévention (zonage, normes de construction, éducation) et la protection (digues)." },
+        { "subtitle": "V. Le changement climatique", "text": "Il aggrave certains risques naturels (cyclones plus intenses, inondations, sécheresses, incendies), obligeant les sociétés à s'adapter." }
+      ]
+    }
+  ],
+  "homeworks": [
+    {
+      "id": 1001,
+      "title": "DM : Calcul Vectoriel & Colinéarité",
+      "subject": "Maths",
+      "classId": "2nde C",
+      "deadline": "Demain",
+      "status": "A faire",
+      "priority": "High",
+      "questions": [
+        { "question": "Soit u(2; -3) et v(-4; 6). Les vecteurs u et v sont-ils colinéaires ?", "answer": "Oui, car x*y' - x'*y = 2*6 - (-4)*(-3) = 12 - 12 = 0." },
+        { "question": "Simplifier l'expression suivante en utilisant la relation de Chasles : AB + BC + CA", "answer": "AB + BC + CA = AC + CA = AA = vecteur nul." },
+        { "question": "Soit A(1; 2) et B(4; 6). Calculer la norme du vecteur AB.", "answer": "||AB|| = √((4-1)² + (6-2)²) = √(3² + 4²) = √25 = 5." }
+      ]
+    },
+    {
+      "id": 1002,
+      "title": "TP : Dosage par étalonnage",
+      "subject": "Physique",
+      "classId": "2nde C",
+      "deadline": "3 jours",
+      "status": "En cours",
+      "priority": "Medium",
+      "questions": [
+        { "question": "Quelle est la formule liant la concentration molaire (C), la quantité de matière (n) et le volume (V) ?", "answer": "C = n / V" },
+        { "question": "Pourquoi rince-t-on la burette graduée avec la solution titrante avant le dosage ?", "answer": "Pour éliminer l'eau de rinçage qui diluerait la solution et fausserait les mesures." },
+        { "question": "Définir une solution mère et une solution fille.", "answer": "La solution mère est la solution initiale concentrée. La solution fille est obtenue par ajout de solvant à la solution mère." }
+      ]
+    },
+    {
+      "id": 1003,
+      "title": "Quiz : La structure de l'ADN",
+      "subject": "SVT",
+      "classId": "2nde C",
+      "deadline": "Dans 2 jours",
+      "status": "A faire",
+      "priority": "Medium",
+      "questions": [
+        { "question": "Quels sont les 4 types de nucléotides composant l'ADN ?", "answer": "Adénine (A), Thymine (T), Cytosine (C) et Guanine (G)." },
+        { "question": "Quelle est la règle de complémentarité des bases azotées ?", "answer": "A se lie toujours avec T, et C se lie toujours avec G." },
+        { "question": "Où se situe l'ADN dans une cellule eucaryote ?", "answer": "Dans le noyau." }
+      ]
+    },
+    {
+      "id": 1004,
+      "title": "Analyse : Le personnage de Roman",
+      "subject": "Français",
+      "classId": "2nde C",
+      "deadline": "Dans 1 semaine",
+      "status": "A faire",
+      "priority": "Low",
+      "questions": [
+        { "question": "Qu'est-ce qu'une focalisation interne ?", "answer": "C'est quand le narrateur limite l'information à ce que perçoit un seul personnage." },
+        { "question": "Citez deux caractéristiques du mouvement naturaliste porté par Émile Zola.", "answer": "L'influence de l'hérédité et l'observation quasi-scientifique de la société." }
+      ]
+    },
+    {
+      "id": 1005,
+      "title": "Grammar : Past Tenses Mastery",
+      "subject": "Anglais",
+      "classId": "2nde C",
+      "deadline": "Hier",
+      "status": "Terminé",
+      "priority": "Low",
+      "questions": [
+        { "question": "Mettre au prétérit : 'I (go) to Bobo-Dioulasso last summer'.", "answer": "I went to Bobo-Dioulasso last summer." },
+        { "question": "Traduire : 'J'étudiais quand le téléphone a sonné'.", "answer": "I was studying when the phone rang." }
+      ]
+    },
+    {
+      "id": 1006,
+      "title": "Exercice : La cité d'Athènes",
+      "subject": "Histoire",
+      "classId": "2nde C",
+      "deadline": "Dans 4 jours",
+      "status": "A faire",
+      "priority": "High",
+      "questions": [
+        { "question": "Quelles sont les trois conditions pour être citoyen à Athènes au Ve siècle av. J-C ?", "answer": "Être un homme libre, être né de père citoyen et de mère fille de citoyen, avoir fait son éphébie." },
+        { "question": "Nommez le lieu où se réunissent les citoyens pour voter les lois.", "answer": "La Pnyx." },
+        { "question": "Qui est Périclès ?", "answer": "Un célèbre stratège athénien qui a approfondi la démocratie et embelli l'Acropole." }
+      ]
+    }
+  ],
+  "grades": [
+    { "id": 1, "subject": "Maths", "title": "DS Vecteurs", "score": 17, "total": 20, "date": "15 Oct", "type": "Examen", "classId": "2nde C" },
+    { "id": 2, "subject": "Physique", "title": "TP Mécanique", "score": 14.5, "total": 20, "date": "22 Oct", "type": "TP", "classId": "2nde C" },
+    { "id": 3, "subject": "SVT", "title": "Interro Cellule", "score": 18, "total": 20, "date": "05 Nov", "type": "Quiz", "classId": "2nde C" },
+    { "id": 4, "subject": "Anglais", "title": "Oral Test", "score": 16, "total": 20, "date": "12 Nov", "type": "Oral", "classId": "2nde C" },
+    { "id": 5, "subject": "Maths", "title": "DS Fonctions", "score": 13, "total": 20, "date": "20 Nov", "type": "Examen", "classId": "2nde C" },
+    { "id": 6, "subject": "Français", "title": "Dissertation", "score": 12, "total": 20, "date": "25 Nov", "type": "Devoir", "classId": "2nde C" },
+    { "id": 7, "subject": "Histoire", "title": "Carte Afrique", "score": 19, "total": 20, "date": "02 Déc", "type": "Devoir", "classId": "2nde C" },
+    { "id": 8, "subject": "Physique", "title": "DS Atomes", "score": 15.5, "total": 20, "date": "10 Déc", "type": "Examen", "classId": "2nde C" }
+  ]
+}
