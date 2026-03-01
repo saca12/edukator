@@ -35,7 +35,7 @@ export default function Subscribe() {
           last_name: last_name, 
           password: password,
           email: email,
-          first_name: first_name, // Optionnel, selon ton backend
+          first_name: first_name,
         }),
       });
 

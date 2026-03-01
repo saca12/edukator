@@ -25,10 +25,10 @@ export function SideBar() {
                 />
             )}
             
-            <aside className={`
+            <aside className={`hidden lg:flex
                 fixed inset-y-0 left-0 z-50 w-full sm:w-80 
                 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800
-                transform transition-transform duration-300 ease-in-out flex flex-col
+                transform transition-transform duration-300 ease-in-out flex-col
                 lg:relative lg:translate-x-0 lg:w-[20vw]
                 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
             `}>

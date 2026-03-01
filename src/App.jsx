@@ -62,7 +62,7 @@ export default function App() {
         
         <main className={`flex-1 transition-all duration-300 overflow-y-auto`}>
           {/* Bouton Hamburger Mobile */}
-          {!isFocusMode && (
+          {!isLoginPage && !isFocusMode && (
             <div className="lg:hidden p-4 dark:bg-slate-800  border-b dark:border-slate-900 bg-slate-100 border-slate-200 flex justify-between items-center sticky top-0 z-30">
                 <span className="font-black text-indigo-600">EDUKATOR</span>
                 <button 
